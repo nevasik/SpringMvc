@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         id="WebApp_ID" version="3.1">
+
+  <display-name>spring-mvc-app1</display-name>
+
+  <absolute-ordering/>
+
+<!--Здесь с помощью тега <servlet>  мы создаёс диспатчер сервелет, у него название dispatcher-->
+  <servlet>
+    <servlet-name>dispatcher</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>/WEB-INF/applicationContextMVC.xml</param-value>
+    </init-param>
+<!--    ниже параметр указывает что мы первым должны загружать DispatcherServlet первым на наш сервер-->
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+<!-- Здесь с помощью тега  <servlet-mapping> мы обращаемся к dispatcher сервелету и что любой url который набирает пользователь в браузере и когда он обращается к нашему серверу любой этот запроос должен перенаправлятся на наш dispatcher сервелет, и когда запрос перенаправится сервером от пользователя на наш dispatcher сервелет это будет обозначать что наш запрос попал в наше Spring приложение-->
+  <servlet-mapping>
+    <servlet-name>dispatcher</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+</web-app>
