@@ -9,7 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bac8cdb-59b1-4cc5-817e-aaf8aaa618b5" name="Changes" comment="" />
+    <list default="true" id="6bac8cdb-59b1-4cc5-817e-aaf8aaa618b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/springcourse/config/MySpringMvcDispatcherServletInitilizatializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +62,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "ebf85741b99c595fd8e371acde50121c"
   }
 }]]></component>
   <component name="RunManager">
@@ -156,7 +167,16 @@
       <workItem from="1667420373757" duration="1801000" />
       <workItem from="1667569683571" duration="605000" />
       <workItem from="1668357240257" duration="2503000" />
-      <workItem from="1668359943091" duration="5907000" />
+      <workItem from="1668359943091" duration="7255000" />
+      <workItem from="1668378413270" duration="639000" />
+      <workItem from="1668379078233" duration="707000" />
+      <workItem from="1668404787469" duration="113000" />
+      <workItem from="1668424495741" duration="65000" />
+      <workItem from="1668433755483" duration="808000" />
+      <workItem from="1668437434947" duration="649000" />
+      <workItem from="1668444541739" duration="1290000" />
+      <workItem from="1668455856259" duration="257000" />
+      <workItem from="1668540907790" duration="2711000" />
     </task>
     <servers />
   </component>
@@ -173,5 +193,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpringMVC$Tomcat_9_0_29.ic" NAME="Tomcat 9.0.29 Coverage Results" MODIFIED="1668444844678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
