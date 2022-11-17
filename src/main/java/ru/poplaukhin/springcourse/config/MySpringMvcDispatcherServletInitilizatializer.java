@@ -2,9 +2,8 @@ package ru.poplaukhin.springcourse.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-// этот класс заменяет web.xml
+// этот класс заменяет webql.xml
 public class MySpringMvcDispatcherServletInitilizatializer extends AbstractAnnotationConfigDispatcherServletInitializer {
-
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return null;
